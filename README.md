@@ -1,6 +1,3 @@
-# Introduction-to-Site-Reliability-Engineering
-Code bundles for Introduction to Site Reliability Engineering, published by Packt. 
-
 [![GitHub issues](https://img.shields.io/github/issues/TrainingByPackt/Introduction-to-Site-Reliability-Engineering.svg)](https://github.com/TrainingByPackt/Introduction-to-Site-Reliability-Engineering/issues)
 [![GitHub forks](https://img.shields.io/github/forks/TrainingByPackt/Introduction-to-Site-Reliability-Engineering.svg)](https://github.com/TrainingByPackt/Introduction-to-Site-Reliability-Engineering/network)
 [![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/Introduction-to-Site-Reliability-Engineering.svg)](https://github.com/TrainingByPackt/Introduction-to-Site-Reliability-Engineering/stargazers)
