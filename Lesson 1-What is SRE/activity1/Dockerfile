@@ -1,3 +1,5 @@
+# We could start with a linux container, but there is a container
+# purpose built for Python - why do more work than we need to?
 FROM python:3
 
 # It's a good practice to copy just requirements.txt first to leverage Docker cache
