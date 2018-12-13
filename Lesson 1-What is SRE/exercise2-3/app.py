@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 seed()
 
 # A list of excuses
-excuseslist = ['my car broke down', 'I was at a funeral', 'I had a dentist appointment', 'I had to take the kids to school', 'I was hung over', 'there is terrible traffic today', 'i was dealing with a production outage from home', 'the train was slow' ]
+excuseslist = ['my car broke down', 'I was at a funeral', 'I had a dentist appointment', 'I had to take the kids to school', 'I was hung over', 'there is terrible traffic today', 'I was dealing with a production outage from home', 'the train was slow' ]
 
 application = Flask(__name__)
 
