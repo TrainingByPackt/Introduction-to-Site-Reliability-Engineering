@@ -3,11 +3,15 @@ from random import seed, choice
 from flask import Flask
 import logging
 
+# Instantiate a logger because we should really use logging once we add some real logic
 logger = logging.getLogger(__name__)
+# A seed for randomness
 seed()
-application = Flask(__name__)
 
-excuseslist = ['my car broke down', 'I was at a funeral', 'I had a dentist appointment', 'I had to take the kids to school', 'My wife\'s water broke', 'there is terrible traffic today', 'i was dealing with a production outage from home', 'the train was slow' ]
+# A list of excuses
+excuseslist = ['my car broke down', 'I was at a funeral', 'I had a dentist appointment', 'I had to take the kids to school', 'I was hung over', 'there is terrible traffic today', 'i was dealing with a production outage from home', 'the train was slow' ]
+
+application = Flask(__name__)
 
 @application.route('/excuse')
 def deliver_exuse():
